@@ -7,5 +7,14 @@ const int MAX_COL = 8;
 
 class Tauler
 {
+public:
+    Tauler() {}
+    bool esMovimientoValido(Figura figura, int dirX, int dirY);
+    void colocarFigura(Figura figura);
+    void eliminarFilasCompletas();
+    
+private:
+    ColorFigura tauler[MAX_FILA][MAX_COL];
+    
 };
 #endif

@@ -16,6 +16,11 @@ public:
 	void escriuTauler(const string& nomFitxer);
 
 private:
+	Tauler tauler;
+    Figura figuraActual;
+    int puntuacion;
+    int nivel;
+	
 };
 
 #endif

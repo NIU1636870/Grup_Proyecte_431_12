@@ -38,6 +38,18 @@ typedef enum
 
 class Figura
 {
+public:
+    Figura() {}
+    void desplazarLateralmente(int dirX);
+    void bajar();
+    void girar(DireccioGir direccio);
+
+private:
+    TipusFigura tipus;
+    ColorFigura color;
+    int posX, posY;
+    int forma[MAX_ALCADA][MAX_AMPLADA];
+    
 };
 
 
