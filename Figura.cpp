@@ -172,6 +172,4 @@ istream& operator>>(istream& entrada, Figura& figura) {
     return entrada;
 }
 
-Figura::~Figura() {
-    aliberarMatrix();
-}
+Figura::~Figura() { aliberarMatrix(); }
